@@ -1,9 +1,10 @@
 import React from "react";
-import { Services, TopBanner } from "./components";
+import { Services, TopBanner, TopNavigation } from "./components";
 
 function App() {
   return (
     <div>
+      <TopNavigation />
       <TopBanner />
       <Services />
     </div>

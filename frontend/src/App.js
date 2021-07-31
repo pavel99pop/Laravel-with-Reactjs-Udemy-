@@ -1,5 +1,11 @@
 import React from "react";
-import { Analysis, Services, TopBanner, TopNavigation } from "./components";
+import {
+  Analysis,
+  Services,
+  Summary,
+  TopBanner,
+  TopNavigation,
+} from "./components";
 
 function App() {
   return (
@@ -8,6 +14,7 @@ function App() {
       <TopBanner />
       <Services />
       <Analysis />
+      <Summary />
     </div>
   );
 }

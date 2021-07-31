@@ -1,5 +1,5 @@
 import React from "react";
-import { Services, TopBanner, TopNavigation } from "./components";
+import { Analysis, Services, TopBanner, TopNavigation } from "./components";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <TopNavigation />
       <TopBanner />
       <Services />
+      <Analysis />
     </div>
   );
 }

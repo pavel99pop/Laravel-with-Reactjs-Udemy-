@@ -61,7 +61,7 @@
   font-size: 22px;
 }
 
-.serviceMainTitle {
+.sectionTitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 28px;
@@ -71,7 +71,7 @@
   color: #051b35;
 }
 
-.serviceMainTitleBottom {
+.sectionTitleBottom {
   background: #051b35 none repeat scroll 0 0;
   height: 3px;
   width: 100px;
@@ -90,7 +90,6 @@
   padding: 60px 30px;
   box-shadow: 0 0 8px 0 rgb(4, 55, 105, 0.2);
   text-align: center;
-  font-family: "Raleway", sans-serif;
 }
 
 .serviceName {
@@ -98,15 +97,21 @@
   font-size: 24px;
   font-weight: 700;
   color: #051b35;
+  font-family: "Raleway", sans-serif;
 }
 
-.serviceDescription {
+.sectionDescription {
   margin-top: 1rem;
   font-size: 15px;
   font-weight: 400;
   color: #505050;
+  font-family: "Raleway", sans-serif;
 }
 
 .serviceCard:hover {
   box-shadow: 0 0 16px 0 rgb(4, 55, 105, 0.2);
+}
+
+.text-justify {
+  text-align: justify;
 }

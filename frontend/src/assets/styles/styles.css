@@ -180,3 +180,46 @@
   color: #fff;
   font-size: 40px;
 }
+
+.projectCard {
+  background: #fff;
+  width: 22em;
+  border-radius: 0.6em;
+  margin: 1em;
+  cursor: pointer;
+  box-shadow: 0 13px 25px -5px;
+  transition: all ease 200ms;
+}
+
+.projectCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 30px -5px;
+}
+
+.courseImg {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+.courseViewMore {
+  color: #051b35;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.videoCard {
+  box-shadow: 0 13px 25px -5px;
+  padding: 8rem 3rem;
+  background-color: #051b35;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.videoText {
+  margin-top: 2%;
+}

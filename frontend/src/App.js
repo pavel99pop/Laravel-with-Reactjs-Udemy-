@@ -1,10 +1,13 @@
 import React from "react";
 import {
   Analysis,
+  Courses,
+  RecentProjects,
   Services,
   Summary,
   TopBanner,
   TopNavigation,
+  Video,
 } from "./components";
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
       <Services />
       <Analysis />
       <Summary />
+      <RecentProjects />
+      <Courses />
+      <Video />
     </div>
   );
 }

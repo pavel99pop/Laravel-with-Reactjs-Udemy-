@@ -1,4 +1,4 @@
-import { faVideoSlash } from "@fortawesome/free-solid-svg-icons";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Fragment, useState } from "react";
 import { Col, Container, Row, Button, Modal } from "react-bootstrap";
@@ -40,7 +40,7 @@ const Video = () => {
             <FontAwesomeIcon
               onClick={handleShow}
               className="iconProject"
-              icon={faVideoSlash}
+              icon={faPlay}
             />
           </Col>
         </Row>

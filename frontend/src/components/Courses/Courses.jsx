@@ -14,14 +14,14 @@ const Courses = () => {
         <Row>
           <Col lg={6}>
             <Row>
-              <Col md={6} className="p-2">
+              <Col md={6} className="py-2">
                 <img className="courseImg" src={courseImage1} alt="Course" />
               </Col>
               <Col md={6}>
-                <h5 className="text-justify serviceName">Laravel 8</h5>
+                <h5 className="text-justify serviceName">UX/UI Design</h5>
                 <p className="text-justify sectionDescription">
-                  Laravel 8 - Learn how to build an advanced e-commerce app from
-                  scratch
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Sint, fugit?
                 </p>
                 <a className="courseViewMore float-left" href="">
                   View Details
@@ -29,11 +29,11 @@ const Courses = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={6} className="p-2">
+              <Col md={6} className="py-2">
                 <img className="courseImg" src={courseImage2} alt="Course" />
               </Col>
               <Col md={6}>
-                <h5 className="text-justify serviceName">Laravel 8</h5>
+                <h5 className="text-justify serviceName">E-Commerce</h5>
                 <p className="text-justify sectionDescription">
                   Laravel 8 - Learn how to build an advanced e-commerce app from
                   scratch
@@ -44,7 +44,7 @@ const Courses = () => {
               </Col>
             </Row>
           </Col>
-          <Col lg={6} className="p-2">
+          <Col lg={6} className="py-2">
             <Row>
               <Col md={6}>
                 <img className="courseImg" src={courseImage3} alt="Course" />
@@ -61,11 +61,11 @@ const Courses = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={6} className="p-2">
+              <Col md={6} className="py-2">
                 <img className="courseImg" src={courseImage4} alt="Course" />
               </Col>
               <Col md={6}>
-                <h5 className="text-justify serviceName">Laravel 8</h5>
+                <h5 className="text-justify serviceName">React JS</h5>
                 <p className="text-justify sectionDescription">
                   Laravel 8 - Learn how to build an advanced e-commerce app from
                   scratch

@@ -7,3 +7,5 @@ export { default as RecentProjects } from "./RecentProjects/RecentProjects";
 export { default as Courses } from "./Courses/Courses";
 export { default as Video } from "./Video/Video";
 export { default as ClientReviews } from "./ClientReviews/ClientReviews";
+export { default as AboutMe } from "./AboutMe/AboutMe";
+export { default as Footer } from "./Footer/Footer";

@@ -1,8 +1,10 @@
 import React from "react";
 import {
+  AboutMe,
   Analysis,
   ClientReviews,
   Courses,
+  Footer,
   RecentProjects,
   Services,
   Summary,
@@ -23,7 +25,8 @@ function App() {
       <Courses />
       <Video />
       <ClientReviews />
-      <Services />
+      <AboutMe />
+      <Footer />
     </div>
   );
 }

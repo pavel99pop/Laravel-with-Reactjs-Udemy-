@@ -8,16 +8,19 @@ const TopNavigation = () => {
   const [navbarLogo, setNavbarLogo] = useState([whiteLogo]);
   const [navbarBack, setNavbarBack] = useState("navBackground");
   const [navbarItem, setNavbarItem] = useState("navItem");
+  const [navVariant, setNavVariant] = useState("dark");
 
   const onScroll = () => {
     if (window.scrollY > 100) {
       setNavbarLogo([blackLogo]);
       setNavbarBack("navBackgroundScroll");
       setNavbarItem("navItemScroll");
+      setNavVariant("light");
     } else if (window.scrollY < 100) {
       setNavbarLogo([whiteLogo]);
       setNavbarBack("navBackground");
       setNavbarItem("navItem");
+      setNavVariant("dark");
     }
   };
   useEffect(() => {
@@ -31,7 +34,7 @@ const TopNavigation = () => {
         fixed="top"
         collapseOnSelect
         expand="lg"
-        variant="dark"
+        variant={navVariant}
       >
         <Container>
           <Navbar.Brand href="#home">

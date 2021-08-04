@@ -51,7 +51,7 @@ const ClientReviews = () => {
   return (
     <Fragment>
       <Container fluid className="sliderBack">
-        <h1 className="reviewTitle p-3">TESTIMONIAL</h1>
+        <h1 className="reviewTitle p-3">CLIENT REVIEWS</h1>
         <div className="reviewTitleBottom"></div>
         <Slider {...settings}>
           <div>

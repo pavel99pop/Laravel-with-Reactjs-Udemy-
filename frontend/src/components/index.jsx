@@ -9,3 +9,8 @@ export { default as Video } from "./Video/Video";
 export { default as ClientReviews } from "./ClientReviews/ClientReviews";
 export { default as AboutMe } from "./AboutMe/AboutMe";
 export { default as Footer } from "./Footer/Footer";
+export { default as PageTop } from "./PageTop/PageTop";
+export { default as AboutDescription } from "./AboutDescription/AboutDescription";
+export { default as AllCourses } from "./AllCourses/AllCourses";
+export { default as AllProjects } from "./AllProjects/AllProjects";
+export { default as ContactSec } from "./ContactSec/ContactSec";

@@ -1,32 +1,23 @@
 import React from "react";
 import {
-  AboutMe,
-  Analysis,
-  ClientReviews,
-  Courses,
-  Footer,
-  RecentProjects,
-  Services,
-  Summary,
-  TopBanner,
+  AboutDescription,
+  ContactSec,
+  PageTop,
   TopNavigation,
-  Video,
 } from "./components";
+import {
+  AboutPage,
+  ContactPage,
+  CoursesPage,
+  HomePage,
+  PortfolioPage,
+  ServicesPage,
+} from "./pages";
 
 function App() {
   return (
     <div>
-      <TopNavigation />
-      <TopBanner />
-      <Services />
-      <Analysis />
-      <Summary />
-      <RecentProjects />
-      <Courses />
-      <Video />
-      <ClientReviews />
-      <AboutMe />
-      <Footer />
+      <ServicesPage />
     </div>
   );
 }

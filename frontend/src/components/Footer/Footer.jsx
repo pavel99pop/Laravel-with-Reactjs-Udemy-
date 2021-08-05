@@ -14,7 +14,7 @@ const Footer = () => {
       <Container fluid className="footerSection">
         <Row>
           <Col lg={3} md={6} className="p-5 text-center">
-            <h2 className="footerName text-center">Follow Me</h2>
+            <h2 className="footerName text-center">Find Me</h2>
             <div className="socialContainer">
               <a className="social facebook" href="">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg={3} md={6} className="p-5 text-justify">
-            <h2 className="footerName">Address</h2>
+            <h2 className="footerName">Contact</h2>
             <p className="footerDescription">
               <FontAwesomeIcon icon={faEnvelope} /> support@example.com
               <br /> <FontAwesomeIcon icon={faPhone} /> +69 43434-3434 <br />
@@ -36,7 +36,7 @@ const Footer = () => {
             </p>
           </Col>
           <Col lg={3} md={6} className="p-5 text-justify">
-            <h2 className="footerName">Information</h2>
+            <h2 className="footerName">Quick Links</h2>
             <a className="footerLink" href="">
               About Me
             </a>
@@ -51,7 +51,7 @@ const Footer = () => {
             <br />
           </Col>
           <Col lg={3} md={6} className="p-5 text-justify">
-            <h2 className="footerName">Policy</h2>
+            <h2 className="footerName">Legal</h2>
             <a className="footerLink" href="">
               Refund Policy
             </a>

@@ -38,17 +38,17 @@ const Footer = () => {
           </Col>
           <Col lg={3} md={6} className="p-5 text-justify">
             <h2 className="footerName">Quick Links</h2>
-            <a className="footerLink" href="">
+            <Link className="footerLink" to="/about">
               About Me
-            </a>
+            </Link>
             <br />
-            <a className="footerLink" href="">
+            <Link className="footerLink" to="/about">
               Company Profile
-            </a>
+            </Link>
             <br />
-            <a className="footerLink" href="">
+            <Link className="footerLink" to="/contact">
               Contact Me
-            </a>
+            </Link>
             <br />
           </Col>
           <Col lg={3} md={6} className="p-5 text-justify">

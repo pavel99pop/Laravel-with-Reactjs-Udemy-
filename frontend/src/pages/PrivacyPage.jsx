@@ -10,8 +10,8 @@ import {
 const PrivacyPage = () => {
   return (
     <Fragment>
-      <TopNavigation />
-      <PageTop />
+      <TopNavigation title="Privacy Policy" />
+      <PageTop pageTitle="Privacy Policy" />
       <PrivacyDescription />
       <Footer />
     </Fragment>

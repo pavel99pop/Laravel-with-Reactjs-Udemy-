@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const RefundDescription = () => {
   return (
     <Fragment>
-      <Container>
+      <Container className="mt-5">
         <Row>
           <Col>
             <h1 className="serviceName">Data Protection Principles</h1>

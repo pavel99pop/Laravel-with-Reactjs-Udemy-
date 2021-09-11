@@ -10,8 +10,8 @@ import {
 const ServicesPage = () => {
   return (
     <Fragment>
-      <TopNavigation />
-      <PageTop pageTitle="My Services" />
+      <TopNavigation title="Privacy Policy" />
+      <PageTop pageTitle="Privacy Policy" />
       <Services />
       <ContactSec />
       <Footer />

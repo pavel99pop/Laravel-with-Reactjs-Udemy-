@@ -7,6 +7,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -52,17 +53,17 @@ const Footer = () => {
           </Col>
           <Col lg={3} md={6} className="p-5 text-justify">
             <h2 className="footerName">Legal</h2>
-            <a className="footerLink" href="">
+            <Link className="footerLink" to="/refund">
               Refund Policy
-            </a>
+            </Link>
             <br />
-            <a className="footerLink" href="">
+            <Link className="footerLink" to="/terms">
               Terms and Conditions
-            </a>
+            </Link>
             <br />
-            <a className="footerLink" href="">
+            <Link className="footerLink" to="/privacy">
               Privacy Policy
-            </a>
+            </Link>
             <br />
           </Col>
         </Row>

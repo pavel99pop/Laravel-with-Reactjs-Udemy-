@@ -3,12 +3,14 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 import whiteLogo from "../../assets/images/logo_white.png";
 import blackLogo from "../../assets/images/logo_black.png";
+import { NavLink } from "react-router-dom";
 
-const TopNavigation = () => {
+const TopNavigation = ({ title }) => {
   const [navbarLogo, setNavbarLogo] = useState([whiteLogo]);
   const [navbarBack, setNavbarBack] = useState("navBackground");
   const [navbarItem, setNavbarItem] = useState("navItem");
   const [navVariant, setNavVariant] = useState("dark");
+  const [pageTitle, setPageTitle] = useState(title);
 
   const onScroll = () => {
     if (window.scrollY > 100) {
@@ -29,6 +31,7 @@ const TopNavigation = () => {
 
   return (
     <Fragment>
+      <title>{title}</title>
       <Navbar
         className={navbarBack}
         fixed="top"
@@ -44,23 +47,65 @@ const TopNavigation = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link className={navbarItem} href="#deets">
-                HOME
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#ffd900" }}
+                  className={navbarItem}
+                  to="/"
+                >
+                  HOME
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={navbarItem} href="#deets">
-                ABOUT
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#ffd900" }}
+                  className={navbarItem}
+                  to="/about"
+                >
+                  ABOUT
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={navbarItem} href="#deets">
-                SERVICES
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#ffd900" }}
+                  className={navbarItem}
+                  to="/services"
+                >
+                  SERVICES
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={navbarItem} href="#deets">
-                COURSES
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#ffd900" }}
+                  className={navbarItem}
+                  to="/courses"
+                >
+                  COURSES
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={navbarItem} href="#deets">
-                PORTFOLIO
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#ffd900" }}
+                  className={navbarItem}
+                  to="/portfolio"
+                >
+                  PORTFOLIO
+                </NavLink>
               </Nav.Link>
-              <Nav.Link className={navbarItem} href="#deets">
-                CONTACT
+              <Nav.Link>
+                <NavLink
+                  exact
+                  activeStyle={{ color: "#ffd900" }}
+                  className={navbarItem}
+                  to="/contact"
+                >
+                  CONTACT
+                </NavLink>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

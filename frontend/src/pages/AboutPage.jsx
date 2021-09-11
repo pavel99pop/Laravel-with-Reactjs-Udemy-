@@ -10,7 +10,7 @@ import {
 const AboutPage = () => {
   return (
     <Fragment>
-      <TopNavigation />
+      <TopNavigation title="About" />
       <PageTop pageTitle="About Me" />
       <AboutMe />
       <AboutDescription />

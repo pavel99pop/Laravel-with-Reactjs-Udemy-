@@ -4,7 +4,7 @@ import { ContactSec, Footer, PageTop, TopNavigation } from "../components";
 const ContactPage = () => {
   return (
     <Fragment>
-      <TopNavigation />
+      <TopNavigation title="Contact" />
       <PageTop pageTitle="Contact Me" />
       <ContactSec />
       <Footer />

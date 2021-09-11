@@ -4,7 +4,7 @@ import { AllProjects, Footer, PageTop, TopNavigation } from "../components";
 const PortfolioPage = () => {
   return (
     <Fragment>
-      <TopNavigation />
+      <TopNavigation title="Portfolio" />
       <PageTop pageTitle="My Portfolio" />
       <AllProjects />
       <Footer />

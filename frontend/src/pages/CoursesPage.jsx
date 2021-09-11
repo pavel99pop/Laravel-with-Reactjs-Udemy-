@@ -4,7 +4,7 @@ import { AllCourses, Footer, PageTop, TopNavigation } from "../components";
 const CoursesPage = () => {
   return (
     <Fragment>
-      <TopNavigation />
+      <TopNavigation title="Courses" />
       <PageTop pageTitle="All Courses" />
       <AllCourses />
       <Footer />

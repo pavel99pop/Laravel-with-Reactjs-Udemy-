@@ -14,3 +14,6 @@ export { default as AboutDescription } from "./AboutDescription/AboutDescription
 export { default as AllCourses } from "./AllCourses/AllCourses";
 export { default as AllProjects } from "./AllProjects/AllProjects";
 export { default as ContactSec } from "./ContactSec/ContactSec";
+export { default as RefundDescription } from "./RefundDescription/RefundDescription";
+export { default as TermsDescription } from "./TermsDescription/TermsDescription";
+export { default as PrivacyDescription } from "./PrivacyDescription/PrivacyDescription";

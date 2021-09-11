@@ -16,7 +16,7 @@ import {
 const HomePage = () => {
   return (
     <Fragment>
-      <TopNavigation />
+      <TopNavigation title="Easy Learning" />
       <TopBanner />
       <Services />
       <Analysis />

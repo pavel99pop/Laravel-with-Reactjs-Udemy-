@@ -11,6 +11,7 @@ import {
   TopBanner,
   TopNavigation,
   Video,
+  Welcome,
 } from "../components";
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
     <Fragment>
       <TopNavigation title="Easy Learning" />
       <TopBanner />
+      <Welcome />
       <Services />
       <Analysis />
       <Summary />

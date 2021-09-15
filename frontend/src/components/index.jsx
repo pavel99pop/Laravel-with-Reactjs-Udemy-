@@ -17,3 +17,4 @@ export { default as ContactSec } from "./ContactSec/ContactSec";
 export { default as RefundDescription } from "./RefundDescription/RefundDescription";
 export { default as TermsDescription } from "./TermsDescription/TermsDescription";
 export { default as PrivacyDescription } from "./PrivacyDescription/PrivacyDescription";
+export { default as Welcome } from "./Welcome/Welcome";

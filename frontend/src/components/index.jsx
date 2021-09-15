@@ -18,3 +18,4 @@ export { default as RefundDescription } from "./RefundDescription/RefundDescript
 export { default as TermsDescription } from "./TermsDescription/TermsDescription";
 export { default as PrivacyDescription } from "./PrivacyDescription/PrivacyDescription";
 export { default as Welcome } from "./Welcome/Welcome";
+export { default as ProjectDetails } from "./ProjectDetails/ProjectDetails";

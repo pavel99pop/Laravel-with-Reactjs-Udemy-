@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import project1 from "../../assets/images/project1.jpg";
 import project2 from "../../assets/images/project2.jpg";
 import project3 from "../../assets/images/project3.jpg";
@@ -20,7 +21,11 @@ const AllProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -33,7 +38,11 @@ const AllProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -46,7 +55,11 @@ const AllProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -59,7 +72,11 @@ const AllProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -72,7 +89,11 @@ const AllProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -85,7 +106,11 @@ const AllProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>

@@ -9,6 +9,7 @@ import {
   RefundPage,
   ServicesPage,
   TermsPage,
+  ProjectDetailsPage,
 } from "../pages";
 import PrivacyPage from "../pages/PrivacyPage";
 const AppRouter = () => {
@@ -24,6 +25,7 @@ const AppRouter = () => {
         <Route exact path="/refund" component={RefundPage} />
         <Route exact path="/terms" component={TermsPage} />
         <Route exact path="/privacy" component={PrivacyPage} />
+        <Route exact path="/projectdetails" component={ProjectDetailsPage} />
       </Switch>
     </Fragment>
   );

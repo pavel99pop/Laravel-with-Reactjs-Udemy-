@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import project1 from "../../assets/images/project1.jpg";
 import project2 from "../../assets/images/project2.jpg";
@@ -20,7 +21,11 @@ const RecentProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -33,7 +38,11 @@ const RecentProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -46,7 +55,11 @@ const RecentProjects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button variant="primary">
+                  <Link className="link-style" to="/projectdetails">
+                    Check it out
+                  </Link>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
